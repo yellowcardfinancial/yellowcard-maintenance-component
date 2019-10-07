@@ -1,6 +1,6 @@
 {
   "name": "@yellowcard/maintenance-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This a yellowcard maintenance component page",
   "author": "Merdoth <ucheya97@gmail.com>",
   "main": "./dist/maintenance.common.js",
@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "build-bundle": "vue-cli-service build --target lib --name maintenance ./src/main.js"
+    "build-bundle": "vue-cli-service build --target lib --name maintenance  ./src/components/index.js"
   },
   "dependencies": {},
   "devDependencies": {

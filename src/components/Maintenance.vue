@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="maintenance">
     <div class="maintain-logo"><img  src="https://yellowcard-static.s3.amazonaws.com/Logo.png"></div>
     <div class="maintain-content-container">
       <p class="maintain-intro">This page is under maintenance</p>
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./scss/maintenance.scss";
+@import "../scss/maintenance.scss";
 </style>
