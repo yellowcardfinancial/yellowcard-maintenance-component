@@ -1,5 +1,5 @@
 <template>
-  <div id="maintenance">
+  <div id="app">
     <div class="maintain-logo"><img  src="https://yellowcard-static.s3.amazonaws.com/Logo.png"></div>
     <div class="maintain-content-container">
       <p class="maintain-intro">This page is under maintenance</p>
