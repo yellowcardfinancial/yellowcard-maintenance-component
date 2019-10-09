@@ -6,12 +6,16 @@
 }
 body {
   overflow: none;
+  margin:0;
 }
 #app {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  background: #ffffff;
+  position: absolute;
+  overflow: hidden !important;
 }
 .maintain-logo {
   height: 25px;
@@ -48,8 +52,9 @@ body {
 }
 .maintain-content-container {
   position: absolute;
-  left: 828px;
+  left: 72%;
   top: 305px;
+  right: 0;
   height: 400px;
 }
 .maintain-intro {
@@ -68,7 +73,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  width: 382px;
+  width: 100%;
 }
 .maintain-button {
   margin-top: 20px;
@@ -93,6 +98,10 @@ body {
 @media screen and (min-width: 2196px){
   #app {
     justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
   }
   .maintain-logo {
     height: 46px;
@@ -124,7 +133,7 @@ body {
   }
   .maintain-content-container {
     top: 510px;
-    left: 59%;
+    left: 60%;
   }
   .maintain-intro {
     font-size: 60px;
@@ -134,7 +143,7 @@ body {
   .maintain-desc {
     font-size: 26px;
     line-height: 33px;
-    width: 692px;
+    width: 100%;
   }
   .maintain-button {
     margin-top: 25px;
@@ -186,12 +195,15 @@ body {
     left: 518px;
   }
   .maintain-content-container {
+    background: #ffffff;
+    z-index: 1;
+    padding: 10px;
     -moz-top: 425px;
     -ms-top: 425px;
     -webkit-top: 425px;
     -o-top: 425px;
     top: 425px;
-    left: 660px;
+    left: 60%;
     -moz-left: 660px;
     -ms-left: 660px;
     -webkit-left: 660px;
@@ -215,6 +227,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
   }
   .maintain-img-container {
     top: 550px;
@@ -233,9 +250,11 @@ body {
     height: 70px;
   }
   .maintain-content-container {
-    top: 220px;
-    left: 92px;
-    width: 100%;
+    top: 180px;
+    // left: 92px;
+    left: 0;
+    margin:auto;
+    width: 85vw;
   }
   .maintain-logo {
     height: 40px;
@@ -248,7 +267,7 @@ body {
     height: 37px;
   }
   .maintain-button {
-    width: 500px;
+    width: 100%;
     height: 80px;
     font-size: 29px;
     border-radius: 4px;
@@ -259,12 +278,12 @@ body {
     line-height: 59px;
     font-weight: 900;
     margin-bottom: 15px;
-    width: 404px;
+    width: 100%;
   }
   .maintain-desc {
     font-size: 23px;
     line-height: 28px;
-    width: 474px;
+    width: 100%;
     font-weight: 300;
   }
 }
