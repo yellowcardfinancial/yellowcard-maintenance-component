@@ -1,6 +1,6 @@
 {
   "name": "@yellowcard/maintenance-component",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This a yellowcard maintenance component page",
   "author": "Merdoth <ucheya97@gmail.com>",
   "main": "./dist/maintenance.common.js",
