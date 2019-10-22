@@ -4,7 +4,7 @@
     <div class="maintain-content-container">
       <p class="maintain-intro">This page is under maintenance</p>
       <p class="maintain-desc">Our developers at YellowCard are currently working very hard to fix this page, please try again later.</p>
-      <button class="maintain-button" onClick="window.location.href = 'https://www.yellowcard.io'">Do Something Else</button>
+      <button class="maintain-button" onClick="$router.go(-1)">Do Something Else</button>
     </div>
     <div class="maintain-img-container">
        <div class="crane"><img src="https://yellowcard-static.s3.amazonaws.com/maintenance/crane.png"></div>
